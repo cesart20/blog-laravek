@@ -1,0 +1,22 @@
+.container {
+    @apply max-w-7xl mx-auto px-4;
+}
+
+@media (min-width: 640px) {
+    .container {
+        @apply px-6;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        @apply px-8;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .col-span-2 {
+        grid-column: span 2 / span 2;
+    }
+}
